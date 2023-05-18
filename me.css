@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bg{
+    width:100vw;
+    height:100vh;
+    background-image: url('https://cdn3.vectorstock.com/i/1000x1000/61/72/nerd-face-emoji-clever-emoticon-with-glasses-vector-28926172.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    position: absolute;
+    z-index: -1;
+}
